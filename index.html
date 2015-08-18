@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/ahorcado.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+  <!-- Principal -->
+ <div data-role="page" id="paginainicio">
+	<div data-role="header" id="titulo">
+		<h1><center>BIENVENIDO</center></h1>
+        </div>
+<div data-role="content">
+<div align="center">
+		<ul data-role="listview" data-theme="b">
+<li><a href="#jugar">J U G A R</a></li>
+<li><a href="#opciones">OPCIONES</a></li>
+<li><a href="#puntaje">PUNTAJE</a></li>
+<li><a href="#acerca_de">ACERCA DE...</a></li>
+<li><a href="#ayuda">AYUDA</a></li>
+		</ul>		
+        </div>
+	</div>
+    </div>
+</div>
+</div>
+     <!-- Principal -->
+     
+     <!-- juego -->
+     <div data-role="page" id="jugar">
+	<div data-role="header" id="titulo">
+		<h1>juego</h1>
+	</div>
+<img src="recursos/ahorcado.jpg" width="625" height="512">
+    <div data-role="content">
+<div data-role="header">
+   <div align="center">
+    <a href="#paginainicio" class="ui-btn ui-btn-corner-all ui-icon-bars ui-btn-icon-right">Menu</a>
+   </div>
+  </div>
+    </div>
+    </div>
+    <!-- juego -->
+    
+    <!-- opciones -->
+     <div data-role="page" id="opciones" >
+	<div data-role="header">
+		<h1>OPCIONES</h1>
+	</div>
+    <div data-role="content">
+ <div style="float:right; width:10% ">
+<a href="#" id="btn_sonido" class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right ui-btn-inline">Sonido</a>
+    <a href="#" id="btn_vibrar" class="ui-btn ui-btn-corner-all ui-icon-audio ui-btn-icon-right ui-btn-inline"> Vibrar</a>
+    </div>
+    </div>
+   <div align="center">
+    <a href="#paginainicio" class="ui-btn ui-btn-corner-all ui-icon-bars ui-btn-icon-right">Menu</a>
+   </div>
+  </div>
+    <!-- opciones -->
+     
+    <!-- puntaje -->
+     <div data-role="page" id="puntaje">
+	<div data-role="header" id="titulo">
+		<h1>PUNTAJE</h1>
+	</div>
+    
+<div data-role="content">
+<div data-role="header">
+   <div align="center">
+    <a href="#paginainicio" class="ui-btn ui-btn-corner-all ui-icon-bars ui-btn-icon-right">Menu</a>
+   </div>
+  </div>
+    </div>
+    </div>
+    <!-- puntaje -->
+     
+    <!-- acerca_de -->
+     <div data-role="page" id="acerca_de">
+	<div data-role="header" id="titulo">
+		<h1>ACERCA DE...</h1>
+	</div>
+
+	<div data-role="content">
+<div data-role="header">
+   <div align="center">
+    <a href="#paginainicio" class="ui-btn ui-btn-corner-all ui-icon-bars ui-btn-icon-right">Menu</a>
+   </div>
+  </div>
+    </div>
+    </div>
+    <!-- acerca_de -->
+    
+    <!-- ayuda -->
+     <div data-role="page" id="ayuda">
+	<div data-role="header" id="titulo">
+		<h1>AYUDA</h1>
+	</div>
+    
+<div data-role="content">
+<div data-role="header">
+   <div align="center">
+    <a href="#paginainicio" class="ui-btn ui-btn-corner-all ui-icon-bars ui-btn-icon-right">Menu</a>
+   </div>
+  </div>
+    </div>
+    </div>
+    <!-- ayuda -->
+
+ </body>
+</html> 
